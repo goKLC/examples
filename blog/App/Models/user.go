@@ -2,6 +2,7 @@ package Models
 
 import (
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/goKLC/goKLC"
 	"time"
 )
 
@@ -18,7 +19,7 @@ type User struct {
 }
 
 func init() {
-	/*app := goKLC.GetApp()
+	app := goKLC.GetApp()
 	app.DB().AutoMigrate(&User{})
-	app.Auth().Model = &User{}*/
+	app.Auth().Model = &User{}
 }

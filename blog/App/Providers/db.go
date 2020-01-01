@@ -1,6 +1,5 @@
 package Providers
 
-/*
 import (
 	"fmt"
 	"github.com/goKLC/goKLC"
@@ -26,4 +25,3 @@ func init() {
 
 	app.SetDB(DB)
 }
-*/

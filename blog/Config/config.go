@@ -27,7 +27,7 @@ func config() map[string]interface{} {
 		"DBPassword": "password",
 		"DBHost":     "127.0.0.1",
 		"DBPort":     "3306",
-		"DBName":     "go_klc",
+		"DBName":     "go_klc_blog",
 
 		"AssetsFolder": "blog/public",
 		"AssetsPrefix": "assets",
