@@ -14,4 +14,5 @@ func init() {
 
 func Router() {
 	app.Route().Get("/", Controller.IndexController.Index).Name("index")
+	app.Route().Get("/post", Controller.IndexController.Post).Name("post")
 }

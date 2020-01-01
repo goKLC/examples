@@ -20,7 +20,7 @@ func config() map[string]interface{} {
 		"HttpPort":          8091,
 		"MaxFormMemory":     1024 * 1024 * 10,
 		"ViewFolder":        "./blog/View/",
-		"ViewFileExtension": ".html",
+		"ViewFileExtension": ".twig",
 
 		"DBType":     goKLC.MYSQL,
 		"DBUser":     "root",
@@ -29,7 +29,7 @@ func config() map[string]interface{} {
 		"DBPort":     "3306",
 		"DBName":     "go_klc",
 
-		"AssetsFolder": "public",
+		"AssetsFolder": "blog/public",
 		"AssetsPrefix": "assets",
 	}
 }
