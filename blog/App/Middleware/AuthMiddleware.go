@@ -9,8 +9,6 @@ type authMiddleware struct {
 	goKLC.Middleware
 }
 
-var AuthMiddleware = authMiddleware{}
-
 func (a authMiddleware) Handle(request *goKLC.Request) *goKLC.Response {
 
 	auth := goKLC.GetApp().Auth()

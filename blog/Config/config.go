@@ -19,14 +19,14 @@ func config() map[string]interface{} {
 
 		"HttpPort":          8091,
 		"MaxFormMemory":     1024 * 1024 * 10,
-		"ViewFolder":        "./View/",
+		"ViewFolder":        "./blog/View/",
 		"ViewFileExtension": ".html",
 
 		"DBType":     goKLC.MYSQL,
 		"DBUser":     "root",
 		"DBPassword": "password",
 		"DBHost":     "127.0.0.1",
-		"DBPost":     "3306",
+		"DBPort":     "3306",
 		"DBName":     "go_klc",
 
 		"AssetsFolder": "public",

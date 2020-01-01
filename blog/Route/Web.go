@@ -1,7 +1,7 @@
 package Route
 
 import (
-	"github.com/goKLC/framework/App/Controller"
+	"examples/blog/App/Controller"
 	"github.com/goKLC/goKLC"
 )
 
@@ -13,5 +13,5 @@ func init() {
 }
 
 func Router() {
-	app.Route().Get("index", Controller.IndexController.Index).Name("index")
+	app.Route().Get("/", Controller.IndexController.Index).Name("index")
 }

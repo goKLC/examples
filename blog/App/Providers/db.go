@@ -1,5 +1,6 @@
 package Providers
 
+/*
 import (
 	"fmt"
 	"github.com/goKLC/goKLC"
@@ -11,6 +12,7 @@ import (
 )
 
 func init() {
+
 	var app = goKLC.GetApp()
 
 	dbType := app.Config().Get("DBType", nil)
@@ -24,3 +26,4 @@ func init() {
 
 	app.SetDB(DB)
 }
+*/
